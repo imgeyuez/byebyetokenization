@@ -1,0 +1,2645 @@
+
+{'model': 'bpe', 'heads': 12, 'train': <torch.utils.data.dataloader.DataLoader object at 0x7eed4b28bb50>, 'val': <torch.utils.data.dataloader.DataLoader object at 0x7eed4b289e40>, 'test': <torch.utils.data.dataloader.DataLoader object at 0x7eed4b289e70>}
+======== Epoch 1 / 3 ========
+
+Training...
+Loss: 1.0543901920318604
+Loss: 0.8457937240600586
+Loss: 1.0824472904205322
+Loss: 1.1043424606323242
+Loss: 1.0816915035247803
+Loss: 0.9986680746078491
+Loss: 0.9133347868919373
+Loss: 1.1468595266342163
+Loss: 1.0709574222564697
+Loss: 1.1058558225631714
+Loss: 1.0429835319519043
+Loss: 1.023943543434143
+Loss: 0.9641547203063965
+Loss: 1.0206184387207031
+Loss: 1.0501266717910767
+Loss: 0.9131970405578613
+Loss: 1.0501410961151123
+Loss: 1.000460147857666
+Loss: 0.9889746904373169
+Loss: 1.0423916578292847
+Loss: 0.9768273830413818
+Loss: 0.9646192789077759
+Loss: 0.9393616914749146
+Loss: 0.8765454888343811
+Loss: 0.9563347697257996
+Loss: 0.9401507377624512
+Loss: 0.9489250183105469
+Loss: 0.8900256156921387
+Loss: 0.9332687854766846
+Loss: 0.9710328578948975
+Loss: 0.9148778915405273
+Loss: 0.9036930203437805
+Loss: 0.8955168724060059
+Loss: 0.8808651566505432
+Loss: 0.9316775798797607
+Loss: 0.9482375979423523
+Loss: 0.8842260837554932
+Loss: 0.8720192313194275
+Loss: 0.8862537741661072
+Loss: 0.9605633616447449
+Loss: 0.856104850769043
+Loss: 0.8534652590751648
+Loss: 0.9261495471000671
+Loss: 0.9527119994163513
+Loss: 0.8359092473983765
+Loss: 1.0103782415390015
+Loss: 0.8656079173088074
+Loss: 0.8985875844955444
+Loss: 0.7923198938369751
+Loss: 0.8059451580047607
+Loss: 0.9058758020401001
+Loss: 0.9234930872917175
+Loss: 0.8897914886474609
+Loss: 0.9143922328948975
+Loss: 0.791144847869873
+Loss: 0.862307071685791
+Loss: 0.8812581896781921
+Loss: 0.866461455821991
+Loss: 0.8660919666290283
+Loss: 0.831527829170227
+Loss: 0.9217857122421265
+Loss: 0.8648197650909424
+Loss: 0.8010682463645935
+Loss: 0.9060245752334595
+Loss: 0.8831545114517212
+Loss: 0.868308961391449
+Loss: 0.7448692321777344
+Loss: 0.8258398771286011
+Loss: 0.880946159362793
+Loss: 0.8960868716239929
+Loss: 0.9123882055282593
+Loss: 0.8233953714370728
+Loss: 0.9125967621803284
+Loss: 0.9173550605773926
+Loss: 0.7603484988212585
+Loss: 0.8736923933029175
+Loss: 0.7341625690460205
+Loss: 0.8417538404464722
+Loss: 0.6852401494979858
+Loss: 0.8747997283935547
+Loss: 0.8769393563270569
+Loss: 0.7938936352729797
+Loss: 0.831135094165802
+Loss: 0.7763915061950684
+Loss: 0.8598455190658569
+Loss: 0.788326621055603
+Loss: 0.860929012298584
+Loss: 0.8284595608711243
+Loss: 0.886999249458313
+Loss: 0.817381739616394
+Loss: 0.8557599782943726
+Loss: 0.7278842926025391
+Loss: 0.8226057887077332
+Loss: 0.7912002801895142
+Loss: 0.7501600980758667
+Loss: 0.9299841523170471
+Loss: 0.8359174728393555
+Loss: 0.8849747180938721
+Loss: 0.8353821039199829
+Loss: 0.834531843662262
+Loss: 0.8446775078773499
+Loss: 0.7516994476318359
+Loss: 0.9138556718826294
+Loss: 0.819155752658844
+Loss: 0.8017008304595947
+Loss: 0.862083911895752
+Loss: 0.7866962552070618
+Loss: 0.8442427515983582
+Loss: 0.8210209608078003
+Loss: 0.7582319974899292
+Loss: 0.9245240688323975
+Loss: 0.9496889114379883
+Loss: 0.8160614967346191
+Loss: 0.7714243531227112
+Loss: 0.7921506762504578
+Loss: 0.8921864628791809
+Loss: 0.8011816740036011
+Loss: 0.7750616073608398
+Loss: 0.8592727780342102
+Loss: 0.8294655680656433
+Loss: 0.7009727358818054
+Loss: 0.7200295925140381
+Loss: 0.6643930077552795
+Loss: 0.7167814373970032
+Loss: 0.9150417447090149
+Loss: 0.8465463519096375
+Loss: 0.7540017366409302
+Loss: 0.8063720464706421
+Loss: 0.9191064238548279
+Loss: 0.651237964630127
+Loss: 0.7327544093132019
+Loss: 0.8276900053024292
+Loss: 0.7128151059150696
+Loss: 0.7120643258094788
+Loss: 0.7520718574523926
+Loss: 0.7563210725784302
+Loss: 0.5667816996574402
+Loss: 0.8458595871925354
+Loss: 0.8003746867179871
+Loss: 0.7973331809043884
+Loss: 0.8349778652191162
+Loss: 0.6783448457717896
+Loss: 0.7949881553649902
+Loss: 0.8774411678314209
+Loss: 0.7791811227798462
+Loss: 0.84935462474823
+Loss: 0.6804279685020447
+Loss: 0.7927132844924927
+Loss: 0.7727721333503723
+Loss: 0.7055474519729614
+Loss: 0.841543972492218
+Loss: 0.6877511739730835
+Loss: 0.7592822909355164
+Loss: 0.6252868175506592
+Loss: 0.7868832349777222
+Loss: 0.6685295104980469
+Loss: 0.8526179194450378
+Loss: 0.913368821144104
+Loss: 0.8120951056480408
+Loss: 0.8116003274917603
+Loss: 0.8315238952636719
+Loss: 0.7962954044342041
+Loss: 0.767511248588562
+Loss: 0.7390835285186768
+Loss: 0.769572377204895
+Loss: 0.7448223829269409
+Loss: 0.6513034105300903
+Loss: 0.7057947516441345
+Loss: 0.9035571813583374
+Loss: 0.8155040740966797
+Loss: 0.734439492225647
+Loss: 0.8779999017715454
+Loss: 0.7264824509620667
+Loss: 0.534417986869812
+Loss: 0.9128663539886475
+Loss: 0.8466929793357849
+Loss: 0.7892299890518188
+Loss: 0.6910665035247803
+Loss: 0.7337925434112549
+Loss: 0.9490305781364441
+Loss: 0.6949048638343811
+Loss: 0.6955820322036743
+Loss: 0.7126535177230835
+Loss: 0.7030326724052429
+Loss: 0.5009417533874512
+Loss: 0.6545179486274719
+Loss: 0.9245166778564453
+Loss: 0.8660888671875
+Loss: 0.9628335237503052
+Loss: 0.9330053925514221
+Loss: 0.8123832941055298
+Loss: 0.7131384611129761
+Loss: 0.6634499430656433
+Loss: 0.9278776049613953
+Loss: 0.46509239077568054
+Loss: 0.48759669065475464
+Loss: 1.0175400972366333
+Loss: 0.6032635569572449
+Loss: 0.6031790971755981
+Loss: 0.7631452679634094
+Loss: 0.6820365786552429
+Loss: 0.7214285135269165
+Loss: 0.7542600631713867
+Loss: 0.6859287023544312
+Loss: 0.6881750822067261
+Loss: 0.5669727921485901
+Loss: 0.6972624659538269
+Loss: 0.8171544075012207
+Loss: 0.8111588358879089
+Loss: 0.633274495601654
+Loss: 0.7213816046714783
+Loss: 0.5089501738548279
+Loss: 0.6247832775115967
+Loss: 0.9317761659622192
+Loss: 0.92258220911026
+Loss: 0.7359314560890198
+Loss: 0.6394872069358826
+Loss: 0.840883731842041
+Loss: 0.7609876394271851
+Loss: 0.8119848370552063
+Loss: 0.8997738361358643
+Loss: 0.7049453854560852
+Loss: 0.6130695939064026
+Loss: 0.9691805839538574
+Loss: 0.8420186042785645
+Loss: 0.7371177673339844
+Loss: 0.5482927560806274
+Loss: 0.697413444519043
+Loss: 0.7509194016456604
+Loss: 0.8044474124908447
+Loss: 0.7695170640945435
+Loss: 0.5608052015304565
+Loss: 0.8862837553024292
+Loss: 0.7178717851638794
+Loss: 0.7181288003921509
+Loss: 0.4822961986064911
+Loss: 0.6096799969673157
+Loss: 0.6691526174545288
+Loss: 0.54276442527771
+Loss: 0.6600860357284546
+Loss: 0.582019567489624
+Loss: 0.5128387808799744
+Loss: 0.5922466516494751
+Loss: 0.6486521363258362
+Loss: 0.5574042201042175
+Loss: 1.0398635864257812
+Loss: 0.8257895708084106
+Loss: 0.8242431879043579
+Loss: 0.9780693650245667
+Loss: 0.607439398765564
+Loss: 0.6510113477706909
+Loss: 0.5636314153671265
+Loss: 1.1165707111358643
+Loss: 0.7777621746063232
+Loss: 0.8002479076385498
+Loss: 0.7759885787963867
+Loss: 0.632008969783783
+Loss: 0.90130615234375
+Loss: 0.8264020085334778
+Loss: 0.5619356632232666
+Loss: 0.928213894367218
+Loss: 0.9096813201904297
+Loss: 0.6305146217346191
+Loss: 0.8179495930671692
+Loss: 0.6670327186584473
+Loss: 0.8673032522201538
+Loss: 0.5205128192901611
+Loss: 0.7711387872695923
+Loss: 0.4722929000854492
+Loss: 0.6658905744552612
+Loss: 0.7151509523391724
+Loss: 0.6111078262329102
+Loss: 0.6574236154556274
+Loss: 0.7355164885520935
+Loss: 0.6989527344703674
+Loss: 0.5895888209342957
+Loss: 0.8559417724609375
+Loss: 0.5322094559669495
+Loss: 0.58004230260849
+Loss: 0.7176137566566467
+Loss: 0.3448028266429901
+Loss: 0.5709263682365417
+Loss: 0.8121787905693054
+Loss: 0.707631528377533
+Loss: 0.7659721374511719
+Loss: 0.6291303634643555
+Loss: 0.4297310709953308
+Loss: 0.7007268071174622
+Loss: 1.111480951309204
+Loss: 0.7516992688179016
+Loss: 0.6514129638671875
+Loss: 0.4319704473018646
+Loss: 0.5135341882705688
+Loss: 0.5378499627113342
+Loss: 0.7425234317779541
+Loss: 0.5844733119010925
+Loss: 0.43552321195602417
+Loss: 0.5770869851112366
+Loss: 0.8817393183708191
+Loss: 0.3193007707595825
+Loss: 0.5983915328979492
+Loss: 0.8841552138328552
+Loss: 0.5351198315620422
+Loss: 0.6353906393051147
+Loss: 0.4780462980270386
+Loss: 0.7417870163917542
+Loss: 0.7437321543693542
+Loss: 0.5395996570587158
+Loss: 0.6694491505622864
+Loss: 0.7570155262947083
+Loss: 0.7179573178291321
+Loss: 0.7349588871002197
+Loss: 0.3914779722690582
+Loss: 0.6404784321784973
+Loss: 0.5748547911643982
+Loss: 0.5448216199874878
+Loss: 0.6517982482910156
+Loss: 0.4096023738384247
+Loss: 0.7591968774795532
+Loss: 0.9533657431602478
+Loss: 0.6831942796707153
+Loss: 0.6523391604423523
+Loss: 0.6377941370010376
+Loss: 0.6000372171401978
+Loss: 0.689895510673523
+Loss: 0.5885105133056641
+Loss: 0.7568082213401794
+Loss: 0.6020166277885437
+Loss: 0.40516144037246704
+Loss: 0.36732804775238037
+Loss: 0.535279393196106
+Loss: 0.8841289281845093
+Loss: 0.6501089334487915
+Loss: 0.6074756383895874
+Loss: 0.5078199505805969
+Loss: 0.5738211274147034
+Loss: 0.6867250204086304
+Loss: 0.46024829149246216
+Loss: 0.5285816788673401
+Loss: 0.39636027812957764
+Loss: 0.33392468094825745
+Loss: 0.5575137138366699
+Loss: 0.6967296600341797
+Loss: 0.8247417211532593
+Loss: 0.5686860084533691
+Loss: 1.2675199508666992
+  Average training loss: 0.77
+  Training epoch took: 0:03:57Running Validation...
+=====BATCH METRICS=====
+  Batch: 0
+  Accuracy: 0.88
+  Precision (Macro): 0.60
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.63
+=====BATCH METRICS=====
+  Batch: 1
+  Accuracy: 0.50
+  Precision (Macro): 0.32
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.37
+=====BATCH METRICS=====
+  Batch: 2
+  Accuracy: 0.12
+  Precision (Macro): 0.04
+  Recall (Macro): 0.17
+  F1-Score (Macro): 0.07
+=====BATCH METRICS=====
+  Batch: 3
+  Accuracy: 0.25
+  Precision (Macro): 0.10
+  Recall (Macro): 0.12
+  F1-Score (Macro): 0.11
+=====BATCH METRICS=====
+  Batch: 4
+  Accuracy: 0.62
+  Precision (Macro): 0.32
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.39
+=====BATCH METRICS=====
+  Batch: 5
+  Accuracy: 0.62
+  Precision (Macro): 0.35
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.39
+=====BATCH METRICS=====
+  Batch: 6
+  Accuracy: 0.62
+  Precision (Macro): 0.46
+  Recall (Macro): 0.54
+  F1-Score (Macro): 0.49
+=====BATCH METRICS=====
+  Batch: 7
+  Accuracy: 0.75
+  Precision (Macro): 0.43
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.46
+=====BATCH METRICS=====
+  Batch: 8
+  Accuracy: 0.50
+  Precision (Macro): 0.21
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.27
+=====BATCH METRICS=====
+  Batch: 9
+  Accuracy: 0.25
+  Precision (Macro): 0.12
+  Recall (Macro): 0.25
+  F1-Score (Macro): 0.14
+=====BATCH METRICS=====
+  Batch: 10
+  Accuracy: 0.88
+  Precision (Macro): 0.56
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.60
+=====BATCH METRICS=====
+  Batch: 11
+  Accuracy: 0.75
+  Precision (Macro): 0.56
+  Recall (Macro): 0.56
+  F1-Score (Macro): 0.56
+=====BATCH METRICS=====
+  Batch: 12
+  Accuracy: 0.50
+  Precision (Macro): 0.17
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.21
+=====BATCH METRICS=====
+  Batch: 13
+  Accuracy: 0.38
+  Precision (Macro): 0.29
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.32
+=====BATCH METRICS=====
+  Batch: 14
+  Accuracy: 0.25
+  Precision (Macro): 0.07
+  Recall (Macro): 0.17
+  F1-Score (Macro): 0.10
+=====BATCH METRICS=====
+  Batch: 15
+  Accuracy: 0.62
+  Precision (Macro): 0.32
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.35
+=====BATCH METRICS=====
+  Batch: 16
+  Accuracy: 0.62
+  Precision (Macro): 0.36
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.41
+=====BATCH METRICS=====
+  Batch: 17
+  Accuracy: 0.62
+  Precision (Macro): 0.42
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.45
+=====BATCH METRICS=====
+  Batch: 18
+  Accuracy: 0.75
+  Precision (Macro): 0.56
+  Recall (Macro): 0.56
+  F1-Score (Macro): 0.53
+=====BATCH METRICS=====
+  Batch: 19
+  Accuracy: 0.62
+  Precision (Macro): 0.29
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.37
+=====BATCH METRICS=====
+  Batch: 20
+  Accuracy: 0.50
+  Precision (Macro): 0.16
+  Recall (Macro): 0.20
+  F1-Score (Macro): 0.18
+=====BATCH METRICS=====
+  Batch: 21
+  Accuracy: 0.38
+  Precision (Macro): 0.30
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.27
+=====BATCH METRICS=====
+  Batch: 22
+  Accuracy: 1.00
+  Precision (Macro): 1.00
+  Recall (Macro): 1.00
+  F1-Score (Macro): 1.00
+=====BATCH METRICS=====
+  Batch: 23
+  Accuracy: 0.50
+  Precision (Macro): 0.20
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.25
+=====BATCH METRICS=====
+  Batch: 24
+  Accuracy: 0.75
+  Precision (Macro): 0.45
+  Recall (Macro): 0.42
+  F1-Score (Macro): 0.42
+=====BATCH METRICS=====
+  Batch: 25
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.42
+  F1-Score (Macro): 0.45
+=====BATCH METRICS=====
+  Batch: 26
+  Accuracy: 0.50
+  Precision (Macro): 0.40
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.31
+=====BATCH METRICS=====
+  Batch: 27
+  Accuracy: 0.50
+  Precision (Macro): 0.19
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.24
+=====BATCH METRICS=====
+  Batch: 28
+  Accuracy: 0.88
+  Precision (Macro): 0.67
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.70
+=====BATCH METRICS=====
+  Batch: 29
+  Accuracy: 0.50
+  Precision (Macro): 0.27
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.30
+=====BATCH METRICS=====
+  Batch: 30
+  Accuracy: 0.50
+  Precision (Macro): 0.37
+  Recall (Macro): 0.43
+  F1-Score (Macro): 0.35
+=====BATCH METRICS=====
+  Batch: 31
+  Accuracy: 0.38
+  Precision (Macro): 0.15
+  Recall (Macro): 0.28
+  F1-Score (Macro): 0.18
+=====BATCH METRICS=====
+  Batch: 32
+  Accuracy: 0.25
+  Precision (Macro): 0.13
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.18
+=====BATCH METRICS=====
+  Batch: 33
+  Accuracy: 0.75
+  Precision (Macro): 0.37
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.42
+=====BATCH METRICS=====
+  Batch: 34
+  Accuracy: 0.62
+  Precision (Macro): 0.25
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.31
+=====BATCH METRICS=====
+  Batch: 35
+  Accuracy: 0.75
+  Precision (Macro): 0.60
+  Recall (Macro): 0.62
+  F1-Score (Macro): 0.58
+=====BATCH METRICS=====
+  Batch: 36
+  Accuracy: 0.75
+  Precision (Macro): 0.49
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.53
+=====BATCH METRICS=====
+  Batch: 37
+  Accuracy: 0.62
+  Precision (Macro): 0.52
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.48
+=====BATCH METRICS=====
+  Batch: 38
+  Accuracy: 0.62
+  Precision (Macro): 0.33
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.33
+=====BATCH METRICS=====
+  Batch: 39
+  Accuracy: 0.50
+  Precision (Macro): 0.20
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.27
+=====BATCH METRICS=====
+  Batch: 40
+  Accuracy: 0.50
+  Precision (Macro): 0.39
+  Recall (Macro): 0.56
+  F1-Score (Macro): 0.46
+=====BATCH METRICS=====
+  Batch: 41
+  Accuracy: 0.50
+  Precision (Macro): 0.25
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.28
+=====BATCH METRICS=====
+  Batch: 42
+  Accuracy: 0.38
+  Precision (Macro): 0.20
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.27
+=====BATCH METRICS=====
+  Batch: 43
+  Accuracy: 0.62
+  Precision (Macro): 0.39
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.41
+=====BATCH METRICS=====
+  Batch: 44
+  Accuracy: 0.75
+  Precision (Macro): 0.60
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.52
+=====BATCH METRICS=====
+  Batch: 45
+  Accuracy: 0.75
+  Precision (Macro): 0.60
+  Recall (Macro): 0.62
+  F1-Score (Macro): 0.58
+=====BATCH METRICS=====
+  Batch: 46
+  Accuracy: 0.62
+  Precision (Macro): 0.42
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.48
+=====BATCH METRICS=====
+  Batch: 47
+  Accuracy: 0.88
+  Precision (Macro): 0.58
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.62
+=====BATCH METRICS=====
+  Batch: 48
+  Accuracy: 0.62
+  Precision (Macro): 0.38
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.38
+=====BATCH METRICS=====
+  Batch: 49
+  Accuracy: 0.25
+  Precision (Macro): 0.13
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.18
+=====BATCH METRICS=====
+  Batch: 50
+  Accuracy: 0.50
+  Precision (Macro): 0.22
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.28
+=====BATCH METRICS=====
+  Batch: 51
+  Accuracy: 0.25
+  Precision (Macro): 0.05
+  Recall (Macro): 0.20
+  F1-Score (Macro): 0.08
+=====BATCH METRICS=====
+  Batch: 52
+  Accuracy: 0.38
+  Precision (Macro): 0.42
+  Recall (Macro): 0.38
+  F1-Score (Macro): 0.37
+=====BATCH METRICS=====
+  Batch: 53
+  Accuracy: 0.50
+  Precision (Macro): 0.47
+  Recall (Macro): 0.62
+  F1-Score (Macro): 0.48
+=====BATCH METRICS=====
+  Batch: 54
+  Accuracy: 0.50
+  Precision (Macro): 0.45
+  Recall (Macro): 0.43
+  F1-Score (Macro): 0.37
+=====BATCH METRICS=====
+  Batch: 55
+  Accuracy: 0.62
+  Precision (Macro): 0.32
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.31
+=====BATCH METRICS=====
+  Batch: 56
+  Accuracy: 0.62
+  Precision (Macro): 0.54
+  Recall (Macro): 0.58
+  F1-Score (Macro): 0.49
+=====BATCH METRICS=====
+  Batch: 57
+  Accuracy: 0.25
+  Precision (Macro): 0.13
+  Recall (Macro): 0.38
+  F1-Score (Macro): 0.18
+=====BATCH METRICS=====
+  Batch: 58
+  Accuracy: 0.50
+  Precision (Macro): 0.35
+  Recall (Macro): 0.38
+  F1-Score (Macro): 0.31
+=====BATCH METRICS=====
+  Batch: 59
+  Accuracy: 0.62
+  Precision (Macro): 0.28
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.31
+=====BATCH METRICS=====
+  Batch: 60
+  Accuracy: 0.38
+  Precision (Macro): 0.18
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.23
+=====BATCH METRICS=====
+  Batch: 61
+  Accuracy: 0.50
+  Precision (Macro): 0.22
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.25
+=====BATCH METRICS=====
+  Batch: 62
+  Accuracy: 0.75
+  Precision (Macro): 0.33
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.38
+=====BATCH METRICS=====
+  Batch: 63
+  Accuracy: 0.12
+  Precision (Macro): 0.06
+  Recall (Macro): 0.17
+  F1-Score (Macro): 0.08
+=====BATCH METRICS=====
+  Batch: 64
+  Accuracy: 0.12
+  Precision (Macro): 0.06
+  Recall (Macro): 0.06
+  F1-Score (Macro): 0.06
+=====BATCH METRICS=====
+  Batch: 65
+  Accuracy: 0.50
+  Precision (Macro): 0.23
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.31
+=====BATCH METRICS=====
+  Batch: 66
+  Accuracy: 0.75
+  Precision (Macro): 0.60
+  Recall (Macro): 0.62
+  F1-Score (Macro): 0.58
+=====BATCH METRICS=====
+  Batch: 67
+  Accuracy: 0.75
+  Precision (Macro): 0.36
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.38
+=====BATCH METRICS=====
+  Batch: 68
+  Accuracy: 0.75
+  Precision (Macro): 0.58
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.60
+=====BATCH METRICS=====
+  Batch: 69
+  Accuracy: 0.25
+  Precision (Macro): 0.15
+  Recall (Macro): 0.38
+  F1-Score (Macro): 0.21
+=====BATCH METRICS=====
+  Batch: 70
+  Accuracy: 0.62
+  Precision (Macro): 0.17
+  Recall (Macro): 0.20
+  F1-Score (Macro): 0.18
+=====BATCH METRICS=====
+  Batch: 71
+  Accuracy: 0.62
+  Precision (Macro): 0.33
+  Recall (Macro): 0.45
+  F1-Score (Macro): 0.37
+=====BATCH METRICS=====
+  Batch: 72
+  Accuracy: 0.50
+  Precision (Macro): 0.27
+  Recall (Macro): 0.27
+  F1-Score (Macro): 0.27
+=====BATCH METRICS=====
+  Batch: 73
+  Accuracy: 0.25
+  Precision (Macro): 0.07
+  Recall (Macro): 0.20
+  F1-Score (Macro): 0.10
+=====BATCH METRICS=====
+  Batch: 74
+  Accuracy: 0.50
+  Precision (Macro): 0.50
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.40
+=====BATCH METRICS=====
+  Batch: 75
+  Accuracy: 0.50
+  Precision (Macro): 0.29
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.31
+=====BATCH METRICS=====
+  Batch: 76
+  Accuracy: 0.38
+  Precision (Macro): 0.17
+  Recall (Macro): 0.25
+  F1-Score (Macro): 0.19
+=====BATCH METRICS=====
+  Batch: 77
+  Accuracy: 0.62
+  Precision (Macro): 0.38
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.42
+=====BATCH METRICS=====
+  Batch: 78
+  Accuracy: 0.50
+  Precision (Macro): 0.27
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.30
+=====BATCH METRICS=====
+  Batch: 79
+  Accuracy: 0.38
+  Precision (Macro): 0.23
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.26
+=====BATCH METRICS=====
+  Batch: 80
+  Accuracy: 0.75
+  Precision (Macro): 0.45
+  Recall (Macro): 0.42
+  F1-Score (Macro): 0.42
+=====BATCH METRICS=====
+  Batch: 81
+  Accuracy: 0.50
+  Precision (Macro): 0.28
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.35
+=====BATCH METRICS=====
+  Batch: 82
+  Accuracy: 0.75
+  Precision (Macro): 0.49
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.53
+=====BATCH METRICS=====
+  Batch: 83
+  Accuracy: 0.25
+  Precision (Macro): 0.14
+  Recall (Macro): 0.20
+  F1-Score (Macro): 0.16
+=====BATCH METRICS=====
+  Batch: 84
+  Accuracy: 0.62
+  Precision (Macro): 0.40
+  Recall (Macro): 0.42
+  F1-Score (Macro): 0.39
+=====BATCH METRICS=====
+  Batch: 85
+  Accuracy: 0.62
+  Precision (Macro): 0.54
+  Recall (Macro): 0.58
+  F1-Score (Macro): 0.49
+=====BATCH METRICS=====
+  Batch: 86
+  Accuracy: 0.33
+  Precision (Macro): 0.12
+  Recall (Macro): 0.25
+  F1-Score (Macro): 0.17
+=====EPOCH METRICS=====
+======== Training Complete ========
+Average Accuracy over all epochs: 0.54
+Average Precision (Macro): 0.33
+Average Recall (Macro): 0.42
+Average F1-Score (Macro): 0.35
+  Validation Loss: 1.21
+  Validation took: 0:00:19
+======== Epoch 2 / 3 ========
+
+Training...
+Loss: 0.6631408929824829
+Loss: 0.5271468162536621
+Loss: 0.5247929096221924
+Loss: 0.7023000121116638
+Loss: 0.33443719148635864
+Loss: 0.70439612865448
+Loss: 0.589234471321106
+Loss: 0.8754611015319824
+Loss: 0.8033068180084229
+Loss: 0.5100517272949219
+Loss: 0.7459320425987244
+Loss: 0.8302837610244751
+Loss: 0.5688702464103699
+Loss: 0.6667321920394897
+Loss: 0.6756638288497925
+Loss: 0.5609800219535828
+Loss: 0.43155938386917114
+Loss: 0.6646665930747986
+Loss: 0.3716941475868225
+Loss: 0.6682837605476379
+Loss: 0.5133834481239319
+Loss: 0.5253387093544006
+Loss: 0.3937429189682007
+Loss: 1.0460624694824219
+Loss: 0.4283697307109833
+Loss: 0.6415774822235107
+Loss: 0.9995339512825012
+Loss: 0.7991231679916382
+Loss: 0.598873496055603
+Loss: 0.8354024887084961
+Loss: 0.5850219130516052
+Loss: 0.4607674777507782
+Loss: 0.35769742727279663
+Loss: 0.5477417707443237
+Loss: 0.6410049796104431
+Loss: 0.4122304916381836
+Loss: 0.6464049816131592
+Loss: 0.8363027572631836
+Loss: 0.45711126923561096
+Loss: 0.591019868850708
+Loss: 0.9577707648277283
+Loss: 0.40813660621643066
+Loss: 0.5683731436729431
+Loss: 0.3666943311691284
+Loss: 0.30583247542381287
+Loss: 0.8535377383232117
+Loss: 0.31431686878204346
+Loss: 0.689095139503479
+Loss: 0.5730770230293274
+Loss: 0.5600377321243286
+Loss: 0.3752661943435669
+Loss: 0.45839405059814453
+Loss: 0.46458542346954346
+Loss: 0.557327926158905
+Loss: 0.6192142963409424
+Loss: 0.38221457600593567
+Loss: 0.48006102442741394
+Loss: 0.6860778331756592
+Loss: 0.6336949467658997
+Loss: 0.5820425748825073
+Loss: 0.7938650846481323
+Loss: 0.5869876742362976
+Loss: 0.5863767862319946
+Loss: 0.690876841545105
+Loss: 0.6734703183174133
+Loss: 0.4600676894187927
+Loss: 0.6676551699638367
+Loss: 0.5682841539382935
+Loss: 0.3643568158149719
+Loss: 0.49306872487068176
+Loss: 0.6079086661338806
+Loss: 1.002637267112732
+Loss: 0.5295048356056213
+Loss: 0.49176737666130066
+Loss: 0.7961557507514954
+Loss: 0.5153071880340576
+Loss: 0.6759274005889893
+Loss: 0.5415350794792175
+Loss: 0.60455721616745
+Loss: 0.6697633266448975
+Loss: 0.60356605052948
+Loss: 0.7012493014335632
+Loss: 0.5366363525390625
+Loss: 0.884638786315918
+Loss: 0.6524693965911865
+Loss: 0.45238786935806274
+Loss: 0.4508749544620514
+Loss: 0.3459545969963074
+Loss: 0.8393274545669556
+Loss: 0.7482404708862305
+Loss: 0.26685914397239685
+Loss: 0.4539419412612915
+Loss: 0.7621594071388245
+Loss: 0.44750598073005676
+Loss: 0.6130857467651367
+Loss: 0.6109328269958496
+Loss: 0.6627970933914185
+Loss: 0.2921574115753174
+Loss: 0.5624122023582458
+Loss: 0.5148645639419556
+Loss: 0.639341413974762
+Loss: 0.2677537500858307
+Loss: 0.4119662046432495
+Loss: 0.5739524364471436
+Loss: 0.750887393951416
+Loss: 0.5446494817733765
+Loss: 0.748833179473877
+Loss: 0.46630731225013733
+Loss: 0.5823621153831482
+Loss: 0.7982074618339539
+Loss: 0.539239764213562
+Loss: 0.44189366698265076
+Loss: 0.5808411836624146
+Loss: 0.3458811938762665
+Loss: 0.677939236164093
+Loss: 0.7512910962104797
+Loss: 0.41552165150642395
+Loss: 0.7221888303756714
+Loss: 0.5598012804985046
+Loss: 0.49714523553848267
+Loss: 0.5967047214508057
+Loss: 0.5387815237045288
+Loss: 0.7733636498451233
+Loss: 0.37253594398498535
+Loss: 0.5249221324920654
+Loss: 0.46234941482543945
+Loss: 0.39348700642585754
+Loss: 0.2842780351638794
+Loss: 0.9346832036972046
+Loss: 1.075942873954773
+Loss: 0.5212801694869995
+Loss: 0.3305921256542206
+Loss: 0.17504936456680298
+Loss: 0.5648553967475891
+Loss: 0.8464120030403137
+Loss: 0.6010797619819641
+Loss: 0.5151681900024414
+Loss: 0.37672337889671326
+Loss: 0.34266749024391174
+Loss: 0.5522938370704651
+Loss: 0.5020967125892639
+Loss: 0.7116678953170776
+Loss: 0.5091063380241394
+Loss: 0.8683737516403198
+Loss: 0.7700768709182739
+Loss: 0.7097668051719666
+Loss: 0.45437103509902954
+Loss: 0.5065051317214966
+Loss: 0.691265881061554
+Loss: 0.5824254155158997
+Loss: 0.6045401096343994
+Loss: 0.7655184864997864
+Loss: 0.7386906147003174
+Loss: 0.6059747338294983
+Loss: 0.49540188908576965
+Loss: 0.364673912525177
+Loss: 0.6221871376037598
+Loss: 0.4417693316936493
+Loss: 0.8204602599143982
+Loss: 0.2820371091365814
+Loss: 0.36006757616996765
+Loss: 0.6719744205474854
+Loss: 0.4874066710472107
+Loss: 0.4079316258430481
+Loss: 0.6233870387077332
+Loss: 0.4418480694293976
+Loss: 0.43009865283966064
+Loss: 0.5344645380973816
+Loss: 0.3840849697589874
+Loss: 0.5675660371780396
+Loss: 0.5040274858474731
+Loss: 0.42991089820861816
+Loss: 0.24110914766788483
+Loss: 0.5810774564743042
+Loss: 0.9178466796875
+Loss: 0.7829457521438599
+Loss: 0.7122797966003418
+Loss: 0.6677932739257812
+Loss: 0.6288824677467346
+Loss: 0.8064565062522888
+Loss: 0.6270097494125366
+Loss: 0.2164641171693802
+Loss: 0.44152411818504333
+Loss: 0.4449504613876343
+Loss: 0.5392370820045471
+Loss: 0.34649622440338135
+Loss: 0.6106343865394592
+Loss: 0.7133650779724121
+Loss: 0.4021186828613281
+Loss: 0.5714184045791626
+Loss: 0.5117560625076294
+Loss: 0.4899357855319977
+Loss: 0.8663337826728821
+Loss: 0.5620890855789185
+Loss: 0.34192025661468506
+Loss: 0.5138727426528931
+Loss: 0.561901330947876
+Loss: 0.675704300403595
+Loss: 0.6656116247177124
+Loss: 0.398617148399353
+Loss: 0.45710277557373047
+Loss: 0.45997822284698486
+Loss: 0.7642664909362793
+Loss: 0.3667311370372772
+Loss: 0.8343916535377502
+Loss: 0.4531093239784241
+Loss: 0.3761724829673767
+Loss: 0.4688698947429657
+Loss: 0.714915931224823
+Loss: 0.33965787291526794
+Loss: 0.32083261013031006
+Loss: 0.5056363344192505
+Loss: 0.6851720809936523
+Loss: 0.5101312398910522
+Loss: 0.33294039964675903
+Loss: 0.3853299021720886
+Loss: 0.4419395327568054
+Loss: 0.611260175704956
+Loss: 0.7760313153266907
+Loss: 0.5517101287841797
+Loss: 0.8295627236366272
+Loss: 0.802002489566803
+Loss: 0.6132391095161438
+Loss: 1.002060055732727
+Loss: 0.6246170997619629
+Loss: 0.638784646987915
+Loss: 0.4350591003894806
+Loss: 0.3199961483478546
+Loss: 0.3826479911804199
+Loss: 0.5170376300811768
+Loss: 0.4473453462123871
+Loss: 0.6075199246406555
+Loss: 0.5169784426689148
+Loss: 0.6067948341369629
+Loss: 0.6529295444488525
+Loss: 0.45931634306907654
+Loss: 0.9226890206336975
+Loss: 0.7476974725723267
+Loss: 0.49552249908447266
+Loss: 0.39422285556793213
+Loss: 0.3478599190711975
+Loss: 0.5076361894607544
+Loss: 0.6301411390304565
+Loss: 0.37476813793182373
+Loss: 0.5269532203674316
+Loss: 0.4654686450958252
+Loss: 0.605821430683136
+Loss: 0.6665157079696655
+Loss: 0.7502015233039856
+Loss: 0.3625268340110779
+Loss: 0.48012304306030273
+Loss: 0.42217740416526794
+Loss: 0.7758950591087341
+Loss: 0.7521770596504211
+Loss: 0.8074871301651001
+Loss: 0.398224800825119
+Loss: 0.6017330884933472
+Loss: 0.6287500858306885
+Loss: 0.5983892679214478
+Loss: 0.46438249945640564
+Loss: 0.48061081767082214
+Loss: 0.43411898612976074
+Loss: 0.4554835855960846
+Loss: 0.5339263677597046
+Loss: 0.36680614948272705
+Loss: 0.7811790108680725
+Loss: 0.680308997631073
+Loss: 0.7496463656425476
+Loss: 0.47859275341033936
+Loss: 0.735882580280304
+Loss: 0.7296766042709351
+Loss: 0.5496517419815063
+Loss: 0.6094222068786621
+Loss: 0.7630743384361267
+Loss: 0.5792922973632812
+Loss: 0.6215585470199585
+Loss: 0.5625242590904236
+Loss: 0.487212598323822
+Loss: 0.7981335520744324
+Loss: 0.8017709255218506
+Loss: 0.4464883804321289
+Loss: 0.6321414709091187
+Loss: 0.38509508967399597
+Loss: 0.5728346705436707
+Loss: 0.6986441016197205
+Loss: 0.4187467396259308
+Loss: 0.395216703414917
+Loss: 0.3288537859916687
+Loss: 0.5697621703147888
+Loss: 0.33059021830558777
+Loss: 0.474126935005188
+Loss: 0.3285139501094818
+Loss: 0.7529816627502441
+Loss: 0.8167392015457153
+Loss: 0.6418396234512329
+Loss: 0.39494630694389343
+Loss: 0.47509434819221497
+Loss: 0.3962614834308624
+Loss: 0.44644996523857117
+Loss: 0.4614745080471039
+Loss: 0.48290130496025085
+Loss: 0.5706430673599243
+Loss: 0.12630127370357513
+Loss: 0.42710840702056885
+Loss: 0.2716386914253235
+Loss: 0.40877294540405273
+Loss: 0.4677467942237854
+Loss: 0.39233189821243286
+Loss: 0.6198325157165527
+Loss: 0.6925347447395325
+Loss: 0.34438955783843994
+Loss: 0.27164384722709656
+Loss: 0.5238003730773926
+Loss: 0.642686128616333
+Loss: 0.5368101000785828
+Loss: 0.5585112571716309
+Loss: 0.47473108768463135
+Loss: 0.4775249660015106
+Loss: 0.4833632707595825
+Loss: 0.6017234325408936
+Loss: 0.6854472756385803
+Loss: 0.6951503157615662
+Loss: 0.4182308614253998
+Loss: 0.30518320202827454
+Loss: 0.3834094703197479
+Loss: 0.3894503712654114
+Loss: 0.4863779842853546
+Loss: 0.6633991003036499
+Loss: 0.6279211044311523
+Loss: 0.3812330961227417
+Loss: 0.3113715648651123
+Loss: 0.3349365293979645
+Loss: 0.5047142505645752
+Loss: 0.3305191099643707
+Loss: 0.5817332863807678
+Loss: 0.2937643826007843
+Loss: 0.6533714532852173
+Loss: 0.5458552837371826
+Loss: 0.5526933670043945
+Loss: 0.5735998749732971
+Loss: 0.7225970029830933
+Loss: 0.38615238666534424
+Loss: 0.45205849409103394
+Loss: 0.46146273612976074
+Loss: 0.43325793743133545
+Loss: 0.3184920847415924
+  Average training loss: 0.56
+  Training epoch took: 0:03:57Running Validation...
+=====BATCH METRICS=====
+  Batch: 0
+  Accuracy: 0.62
+  Precision (Macro): 0.26
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.31
+=====BATCH METRICS=====
+  Batch: 1
+  Accuracy: 0.62
+  Precision (Macro): 0.42
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.41
+=====BATCH METRICS=====
+  Batch: 2
+  Accuracy: 0.62
+  Precision (Macro): 0.37
+  Recall (Macro): 0.53
+  F1-Score (Macro): 0.43
+=====BATCH METRICS=====
+  Batch: 3
+  Accuracy: 0.88
+  Precision (Macro): 0.50
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.50
+=====BATCH METRICS=====
+  Batch: 4
+  Accuracy: 0.50
+  Precision (Macro): 0.47
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.56
+=====BATCH METRICS=====
+  Batch: 5
+  Accuracy: 0.50
+  Precision (Macro): 0.35
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.37
+=====BATCH METRICS=====
+  Batch: 6
+  Accuracy: 0.25
+  Precision (Macro): 0.40
+  Recall (Macro): 0.24
+  F1-Score (Macro): 0.27
+=====BATCH METRICS=====
+  Batch: 7
+  Accuracy: 0.50
+  Precision (Macro): 0.25
+  Recall (Macro): 0.28
+  F1-Score (Macro): 0.24
+=====BATCH METRICS=====
+  Batch: 8
+  Accuracy: 0.62
+  Precision (Macro): 0.36
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.41
+=====BATCH METRICS=====
+  Batch: 9
+  Accuracy: 0.62
+  Precision (Macro): 0.37
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.45
+=====BATCH METRICS=====
+  Batch: 10
+  Accuracy: 0.62
+  Precision (Macro): 0.42
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.48
+=====BATCH METRICS=====
+  Batch: 11
+  Accuracy: 0.88
+  Precision (Macro): 0.95
+  Recall (Macro): 0.88
+  F1-Score (Macro): 0.89
+=====BATCH METRICS=====
+  Batch: 12
+  Accuracy: 0.88
+  Precision (Macro): 0.62
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.67
+=====BATCH METRICS=====
+  Batch: 13
+  Accuracy: 0.75
+  Precision (Macro): 0.60
+  Recall (Macro): 0.62
+  F1-Score (Macro): 0.58
+=====BATCH METRICS=====
+  Batch: 14
+  Accuracy: 0.25
+  Precision (Macro): 0.13
+  Recall (Macro): 0.13
+  F1-Score (Macro): 0.13
+=====BATCH METRICS=====
+  Batch: 15
+  Accuracy: 0.75
+  Precision (Macro): 0.44
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.46
+=====BATCH METRICS=====
+  Batch: 16
+  Accuracy: 0.50
+  Precision (Macro): 0.21
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.27
+=====BATCH METRICS=====
+  Batch: 17
+  Accuracy: 0.50
+  Precision (Macro): 0.47
+  Recall (Macro): 0.56
+  F1-Score (Macro): 0.50
+=====BATCH METRICS=====
+  Batch: 18
+  Accuracy: 0.38
+  Precision (Macro): 0.15
+  Recall (Macro): 0.15
+  F1-Score (Macro): 0.15
+=====BATCH METRICS=====
+  Batch: 19
+  Accuracy: 0.62
+  Precision (Macro): 0.42
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.41
+=====BATCH METRICS=====
+  Batch: 20
+  Accuracy: 0.75
+  Precision (Macro): 0.55
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.50
+=====BATCH METRICS=====
+  Batch: 21
+  Accuracy: 0.88
+  Precision (Macro): 0.70
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.72
+=====BATCH METRICS=====
+  Batch: 22
+  Accuracy: 0.50
+  Precision (Macro): 0.50
+  Recall (Macro): 0.46
+  F1-Score (Macro): 0.43
+=====BATCH METRICS=====
+  Batch: 23
+  Accuracy: 0.62
+  Precision (Macro): 0.38
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.42
+=====BATCH METRICS=====
+  Batch: 24
+  Accuracy: 0.50
+  Precision (Macro): 0.23
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.29
+=====BATCH METRICS=====
+  Batch: 25
+  Accuracy: 0.62
+  Precision (Macro): 0.50
+  Recall (Macro): 0.54
+  F1-Score (Macro): 0.49
+=====BATCH METRICS=====
+  Batch: 26
+  Accuracy: 0.38
+  Precision (Macro): 0.12
+  Recall (Macro): 0.20
+  F1-Score (Macro): 0.15
+=====BATCH METRICS=====
+  Batch: 27
+  Accuracy: 0.75
+  Precision (Macro): 0.42
+  Recall (Macro): 0.45
+  F1-Score (Macro): 0.42
+=====BATCH METRICS=====
+  Batch: 28
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.58
+  F1-Score (Macro): 0.54
+=====BATCH METRICS=====
+  Batch: 29
+  Accuracy: 0.75
+  Precision (Macro): 0.38
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.43
+=====BATCH METRICS=====
+  Batch: 30
+  Accuracy: 0.38
+  Precision (Macro): 0.23
+  Recall (Macro): 0.45
+  F1-Score (Macro): 0.29
+=====BATCH METRICS=====
+  Batch: 31
+  Accuracy: 0.75
+  Precision (Macro): 0.55
+  Recall (Macro): 0.55
+  F1-Score (Macro): 0.55
+=====BATCH METRICS=====
+  Batch: 32
+  Accuracy: 0.62
+  Precision (Macro): 0.26
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.28
+=====BATCH METRICS=====
+  Batch: 33
+  Accuracy: 0.38
+  Precision (Macro): 0.23
+  Recall (Macro): 0.20
+  F1-Score (Macro): 0.21
+=====BATCH METRICS=====
+  Batch: 34
+  Accuracy: 0.62
+  Precision (Macro): 0.28
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.33
+=====BATCH METRICS=====
+  Batch: 35
+  Accuracy: 0.38
+  Precision (Macro): 0.38
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.29
+=====BATCH METRICS=====
+  Batch: 36
+  Accuracy: 0.50
+  Precision (Macro): 0.37
+  Recall (Macro): 0.43
+  F1-Score (Macro): 0.36
+=====BATCH METRICS=====
+  Batch: 37
+  Accuracy: 0.50
+  Precision (Macro): 0.35
+  Recall (Macro): 0.53
+  F1-Score (Macro): 0.37
+=====BATCH METRICS=====
+  Batch: 38
+  Accuracy: 0.38
+  Precision (Macro): 0.18
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.21
+=====BATCH METRICS=====
+  Batch: 39
+  Accuracy: 0.38
+  Precision (Macro): 0.25
+  Recall (Macro): 0.42
+  F1-Score (Macro): 0.29
+=====BATCH METRICS=====
+  Batch: 40
+  Accuracy: 0.50
+  Precision (Macro): 0.21
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.25
+=====BATCH METRICS=====
+  Batch: 41
+  Accuracy: 0.62
+  Precision (Macro): 0.35
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.39
+=====BATCH METRICS=====
+  Batch: 42
+  Accuracy: 0.62
+  Precision (Macro): 0.32
+  Recall (Macro): 0.42
+  F1-Score (Macro): 0.35
+=====BATCH METRICS=====
+  Batch: 43
+  Accuracy: 0.38
+  Precision (Macro): 0.14
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.19
+=====BATCH METRICS=====
+  Batch: 44
+  Accuracy: 0.50
+  Precision (Macro): 0.25
+  Recall (Macro): 0.25
+  F1-Score (Macro): 0.25
+=====BATCH METRICS=====
+  Batch: 45
+  Accuracy: 0.38
+  Precision (Macro): 0.11
+  Recall (Macro): 0.25
+  F1-Score (Macro): 0.15
+=====BATCH METRICS=====
+  Batch: 46
+  Accuracy: 0.50
+  Precision (Macro): 0.25
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.28
+=====BATCH METRICS=====
+  Batch: 47
+  Accuracy: 0.88
+  Precision (Macro): 0.75
+  Recall (Macro): 0.62
+  F1-Score (Macro): 0.67
+=====BATCH METRICS=====
+  Batch: 48
+  Accuracy: 0.62
+  Precision (Macro): 0.75
+  Recall (Macro): 0.71
+  F1-Score (Macro): 0.62
+=====BATCH METRICS=====
+  Batch: 49
+  Accuracy: 0.38
+  Precision (Macro): 0.17
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.22
+=====BATCH METRICS=====
+  Batch: 50
+  Accuracy: 0.50
+  Precision (Macro): 0.44
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.50
+=====BATCH METRICS=====
+  Batch: 51
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 52
+  Accuracy: 0.62
+  Precision (Macro): 0.33
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.36
+=====BATCH METRICS=====
+  Batch: 53
+  Accuracy: 0.50
+  Precision (Macro): 0.25
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.30
+=====BATCH METRICS=====
+  Batch: 54
+  Accuracy: 0.38
+  Precision (Macro): 0.20
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.21
+=====BATCH METRICS=====
+  Batch: 55
+  Accuracy: 0.75
+  Precision (Macro): 0.58
+  Recall (Macro): 0.58
+  F1-Score (Macro): 0.58
+=====BATCH METRICS=====
+  Batch: 56
+  Accuracy: 0.75
+  Precision (Macro): 0.56
+  Recall (Macro): 0.62
+  F1-Score (Macro): 0.59
+=====BATCH METRICS=====
+  Batch: 57
+  Accuracy: 0.62
+  Precision (Macro): 0.39
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.43
+=====BATCH METRICS=====
+  Batch: 58
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 59
+  Accuracy: 0.62
+  Precision (Macro): 0.81
+  Recall (Macro): 0.71
+  F1-Score (Macro): 0.64
+=====BATCH METRICS=====
+  Batch: 60
+  Accuracy: 0.88
+  Precision (Macro): 0.69
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.71
+=====BATCH METRICS=====
+  Batch: 61
+  Accuracy: 0.50
+  Precision (Macro): 0.35
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.41
+=====BATCH METRICS=====
+  Batch: 62
+  Accuracy: 0.88
+  Precision (Macro): 0.62
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.67
+=====BATCH METRICS=====
+  Batch: 63
+  Accuracy: 0.62
+  Precision (Macro): 0.36
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.38
+=====BATCH METRICS=====
+  Batch: 64
+  Accuracy: 0.75
+  Precision (Macro): 0.67
+  Recall (Macro): 0.70
+  F1-Score (Macro): 0.63
+=====BATCH METRICS=====
+  Batch: 65
+  Accuracy: 0.75
+  Precision (Macro): 0.67
+  Recall (Macro): 0.80
+  F1-Score (Macro): 0.70
+=====BATCH METRICS=====
+  Batch: 66
+  Accuracy: 0.62
+  Precision (Macro): 0.50
+  Recall (Macro): 0.58
+  F1-Score (Macro): 0.52
+=====BATCH METRICS=====
+  Batch: 67
+  Accuracy: 0.38
+  Precision (Macro): 0.18
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.21
+=====BATCH METRICS=====
+  Batch: 68
+  Accuracy: 0.62
+  Precision (Macro): 0.33
+  Recall (Macro): 0.38
+  F1-Score (Macro): 0.35
+=====BATCH METRICS=====
+  Batch: 69
+  Accuracy: 0.62
+  Precision (Macro): 0.17
+  Recall (Macro): 0.20
+  F1-Score (Macro): 0.18
+=====BATCH METRICS=====
+  Batch: 70
+  Accuracy: 0.38
+  Precision (Macro): 0.19
+  Recall (Macro): 0.19
+  F1-Score (Macro): 0.19
+=====BATCH METRICS=====
+  Batch: 71
+  Accuracy: 0.75
+  Precision (Macro): 0.45
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.50
+=====BATCH METRICS=====
+  Batch: 72
+  Accuracy: 0.62
+  Precision (Macro): 0.53
+  Recall (Macro): 0.58
+  F1-Score (Macro): 0.48
+=====BATCH METRICS=====
+  Batch: 73
+  Accuracy: 0.50
+  Precision (Macro): 0.30
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.37
+=====BATCH METRICS=====
+  Batch: 74
+  Accuracy: 0.88
+  Precision (Macro): 0.67
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.70
+=====BATCH METRICS=====
+  Batch: 75
+  Accuracy: 0.62
+  Precision (Macro): 0.62
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.49
+=====BATCH METRICS=====
+  Batch: 76
+  Accuracy: 0.38
+  Precision (Macro): 0.25
+  Recall (Macro): 0.19
+  F1-Score (Macro): 0.22
+=====BATCH METRICS=====
+  Batch: 77
+  Accuracy: 0.62
+  Precision (Macro): 0.40
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.43
+=====BATCH METRICS=====
+  Batch: 78
+  Accuracy: 0.62
+  Precision (Macro): 0.72
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.63
+=====BATCH METRICS=====
+  Batch: 79
+  Accuracy: 0.62
+  Precision (Macro): 0.58
+  Recall (Macro): 0.46
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 80
+  Accuracy: 0.62
+  Precision (Macro): 0.45
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.44
+=====BATCH METRICS=====
+  Batch: 81
+  Accuracy: 0.75
+  Precision (Macro): 0.45
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 82
+  Accuracy: 0.38
+  Precision (Macro): 0.17
+  Recall (Macro): 0.23
+  F1-Score (Macro): 0.19
+=====BATCH METRICS=====
+  Batch: 83
+  Accuracy: 0.38
+  Precision (Macro): 0.33
+  Recall (Macro): 0.29
+  F1-Score (Macro): 0.30
+=====BATCH METRICS=====
+  Batch: 84
+  Accuracy: 0.62
+  Precision (Macro): 0.39
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.42
+=====BATCH METRICS=====
+  Batch: 85
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.70
+  F1-Score (Macro): 0.56
+=====BATCH METRICS=====
+  Batch: 86
+  Accuracy: 0.00
+  Precision (Macro): 0.00
+  Recall (Macro): 0.00
+  F1-Score (Macro): 0.00
+=====EPOCH METRICS=====
+======== Training Complete ========
+Average Accuracy over all epochs: 0.59
+Average Precision (Macro): 0.40
+Average Recall (Macro): 0.47
+Average F1-Score (Macro): 0.41
+  Validation Loss: 1.06
+  Validation took: 0:00:19
+======== Epoch 3 / 3 ========
+
+Training...
+Loss: 0.5777100920677185
+Loss: 0.46671321988105774
+Loss: 0.3741323947906494
+Loss: 0.3857283890247345
+Loss: 0.6509515643119812
+Loss: 0.31815993785858154
+Loss: 0.36079615354537964
+Loss: 0.33599531650543213
+Loss: 0.5195512175559998
+Loss: 0.6360920667648315
+Loss: 0.4607948958873749
+Loss: 0.6058502793312073
+Loss: 0.5673539042472839
+Loss: 0.5096750259399414
+Loss: 0.11923150718212128
+Loss: 0.546486496925354
+Loss: 0.4096378684043884
+Loss: 0.2607577443122864
+Loss: 0.5732704401016235
+Loss: 0.5343595743179321
+Loss: 0.6540879011154175
+Loss: 0.5605790615081787
+Loss: 0.5301389098167419
+Loss: 0.5301675200462341
+Loss: 0.457746684551239
+Loss: 0.30462029576301575
+Loss: 0.6719180941581726
+Loss: 0.5047894716262817
+Loss: 0.4373425543308258
+Loss: 0.44199424982070923
+Loss: 0.5335223078727722
+Loss: 0.4807190001010895
+Loss: 0.3392069339752197
+Loss: 0.3309894800186157
+Loss: 0.32446447014808655
+Loss: 0.3274412453174591
+Loss: 0.37872937321662903
+Loss: 0.3891737461090088
+Loss: 0.27559709548950195
+Loss: 0.47673046588897705
+Loss: 0.512889564037323
+Loss: 0.30118700861930847
+Loss: 0.22798170149326324
+Loss: 0.49375417828559875
+Loss: 0.40517592430114746
+Loss: 0.2988584339618683
+Loss: 0.7003713250160217
+Loss: 0.6407461762428284
+Loss: 0.4657328724861145
+Loss: 0.550771951675415
+Loss: 0.5212264657020569
+Loss: 0.45910340547561646
+Loss: 0.5609788298606873
+Loss: 0.33534249663352966
+Loss: 0.7159339189529419
+Loss: 0.5464376211166382
+Loss: 0.43866536021232605
+Loss: 0.467324435710907
+Loss: 0.4599786102771759
+Loss: 0.5615083575248718
+Loss: 0.695612907409668
+Loss: 0.27971431612968445
+Loss: 0.2629601061344147
+Loss: 0.5393217206001282
+Loss: 0.4375250041484833
+Loss: 0.6605234146118164
+Loss: 0.5035356879234314
+Loss: 0.63433438539505
+Loss: 0.20104345679283142
+Loss: 0.2982373833656311
+Loss: 0.2875448167324066
+Loss: 0.2885042428970337
+Loss: 0.26969680190086365
+Loss: 0.47318506240844727
+Loss: 0.32398176193237305
+Loss: 0.37494710087776184
+Loss: 0.524972140789032
+Loss: 0.4935036599636078
+Loss: 0.44297635555267334
+Loss: 0.25361117720603943
+Loss: 0.7516125440597534
+Loss: 0.35605037212371826
+Loss: 0.41239234805107117
+Loss: 0.5502482056617737
+Loss: 0.2791565954685211
+Loss: 0.4195649027824402
+Loss: 0.30237603187561035
+Loss: 0.34112653136253357
+Loss: 0.1942487508058548
+Loss: 0.310750275850296
+Loss: 0.25643348693847656
+Loss: 0.34083932638168335
+Loss: 0.4198314845561981
+Loss: 0.3270557224750519
+Loss: 0.6283848881721497
+Loss: 0.36636269092559814
+Loss: 0.2968103587627411
+Loss: 0.2832683026790619
+Loss: 0.27642422914505005
+Loss: 0.589126706123352
+Loss: 0.4284835457801819
+Loss: 0.31787943840026855
+Loss: 0.6458738446235657
+Loss: 0.4775114953517914
+Loss: 0.608597457408905
+Loss: 0.4580366015434265
+Loss: 0.2755770683288574
+Loss: 0.574630618095398
+Loss: 0.5142212510108948
+Loss: 0.4899980425834656
+Loss: 0.566059410572052
+Loss: 0.3776056170463562
+Loss: 0.533592164516449
+Loss: 0.5688873529434204
+Loss: 0.6851702332496643
+Loss: 0.5140194892883301
+Loss: 0.32691293954849243
+Loss: 0.1514567732810974
+Loss: 0.39725691080093384
+Loss: 0.44233858585357666
+Loss: 0.5565937161445618
+Loss: 0.7548786401748657
+Loss: 0.37098217010498047
+Loss: 0.8295332789421082
+Loss: 0.5078974962234497
+Loss: 0.34617000818252563
+Loss: 0.6726585626602173
+Loss: 0.5941306352615356
+Loss: 0.4692598581314087
+Loss: 0.4171629846096039
+Loss: 0.29018399119377136
+Loss: 0.46094217896461487
+Loss: 0.27080264687538147
+Loss: 0.4646919369697571
+Loss: 0.2923543155193329
+Loss: 0.39150384068489075
+Loss: 0.45046862959861755
+Loss: 0.5303771495819092
+Loss: 0.8808591961860657
+Loss: 0.35612359642982483
+Loss: 0.6206309199333191
+Loss: 0.2944410443305969
+Loss: 0.7464017868041992
+Loss: 0.573281466960907
+Loss: 0.2627122700214386
+Loss: 0.5308041572570801
+Loss: 0.3544667065143585
+Loss: 0.19795557856559753
+Loss: 0.5729392170906067
+Loss: 0.4377894401550293
+Loss: 0.46660059690475464
+Loss: 0.35920679569244385
+Loss: 0.2170482873916626
+Loss: 0.35691794753074646
+Loss: 0.5089872479438782
+Loss: 0.4783765375614166
+Loss: 0.38320818543434143
+Loss: 0.19801661372184753
+Loss: 0.9574810266494751
+Loss: 0.22691044211387634
+Loss: 0.26144248247146606
+Loss: 0.3540417551994324
+Loss: 0.19376173615455627
+Loss: 0.4575534462928772
+Loss: 0.3777579367160797
+Loss: 0.6173496246337891
+Loss: 0.3908095955848694
+Loss: 0.25905412435531616
+Loss: 0.36398279666900635
+Loss: 0.5697153806686401
+Loss: 0.6680997610092163
+Loss: 0.2947109043598175
+Loss: 0.45315632224082947
+Loss: 0.5553144812583923
+Loss: 0.9842717051506042
+Loss: 0.6512287259101868
+Loss: 0.5097678303718567
+Loss: 0.47808676958084106
+Loss: 0.3354986608028412
+Loss: 0.46095067262649536
+Loss: 0.2812052369117737
+Loss: 0.3620397448539734
+Loss: 0.5084494948387146
+Loss: 0.5401443839073181
+Loss: 0.335223913192749
+Loss: 0.379071444272995
+Loss: 0.42825329303741455
+Loss: 0.8287155628204346
+Loss: 0.2615862786769867
+Loss: 0.4521275460720062
+Loss: 0.28558316826820374
+Loss: 0.5069260597229004
+Loss: 0.5109918117523193
+Loss: 0.723836362361908
+Loss: 0.4486827254295349
+Loss: 0.2899652421474457
+Loss: 0.3868435025215149
+Loss: 0.654481053352356
+Loss: 0.5373995900154114
+Loss: 0.5949470400810242
+Loss: 0.49463775753974915
+Loss: 0.3644951581954956
+Loss: 0.6970309615135193
+Loss: 0.6669626235961914
+Loss: 0.4617233872413635
+Loss: 0.49831169843673706
+Loss: 0.37882304191589355
+Loss: 0.6661093235015869
+Loss: 0.4771469235420227
+Loss: 0.3184140920639038
+Loss: 0.5565566420555115
+Loss: 0.5253613591194153
+Loss: 0.2789786458015442
+Loss: 0.5280107855796814
+Loss: 0.5224969983100891
+Loss: 0.5230287313461304
+Loss: 0.21201828122138977
+Loss: 0.3712867200374603
+Loss: 0.4146922826766968
+Loss: 0.5986643433570862
+Loss: 0.5202800035476685
+Loss: 0.4022427201271057
+Loss: 0.2811240255832672
+Loss: 0.41870084404945374
+Loss: 0.33516958355903625
+Loss: 0.5152243375778198
+Loss: 0.23987960815429688
+Loss: 0.3762167692184448
+Loss: 0.6015283465385437
+Loss: 0.6883964538574219
+Loss: 0.32679757475852966
+Loss: 0.31926167011260986
+Loss: 0.5876611471176147
+Loss: 0.31223100423812866
+Loss: 0.39332786202430725
+Loss: 0.470981240272522
+Loss: 0.33919671177864075
+Loss: 0.3633270263671875
+Loss: 0.19081813097000122
+Loss: 0.40286287665367126
+Loss: 0.23965124785900116
+Loss: 0.3811909258365631
+Loss: 0.3807021379470825
+Loss: 0.473152756690979
+Loss: 0.3260864317417145
+Loss: 0.6351712346076965
+Loss: 0.280606746673584
+Loss: 0.2808486521244049
+Loss: 0.29536861181259155
+Loss: 0.43362927436828613
+Loss: 0.4584001302719116
+Loss: 0.29059579968452454
+Loss: 0.3180486857891083
+Loss: 0.671096920967102
+Loss: 0.6013515591621399
+Loss: 0.5771128535270691
+Loss: 0.528900682926178
+Loss: 0.6374356150627136
+Loss: 0.5762687921524048
+Loss: 0.5384665727615356
+Loss: 0.30723682045936584
+Loss: 0.5787004232406616
+Loss: 0.3618788719177246
+Loss: 0.4089316725730896
+Loss: 0.5092355012893677
+Loss: 0.4009960889816284
+Loss: 0.33494314551353455
+Loss: 0.48564034700393677
+Loss: 0.6054179668426514
+Loss: 0.33821630477905273
+Loss: 0.44368767738342285
+Loss: 0.5680990815162659
+Loss: 0.2627689242362976
+Loss: 0.426184743642807
+Loss: 0.6541162729263306
+Loss: 0.43907231092453003
+Loss: 0.3482643961906433
+Loss: 0.14653818309307098
+Loss: 0.6836813688278198
+Loss: 0.28311887383461
+Loss: 0.42945051193237305
+Loss: 0.5496993660926819
+Loss: 0.4073580503463745
+Loss: 0.2293073534965515
+Loss: 0.6684161424636841
+Loss: 0.4671558439731598
+Loss: 0.2633424699306488
+Loss: 0.34794336557388306
+Loss: 0.3077217936515808
+Loss: 0.5572587847709656
+Loss: 0.3288000226020813
+Loss: 0.36164572834968567
+Loss: 0.37550222873687744
+Loss: 0.3947310447692871
+Loss: 0.5343227386474609
+Loss: 0.344686895608902
+Loss: 0.30532175302505493
+Loss: 0.39734798669815063
+Loss: 0.6090036630630493
+Loss: 0.2454906702041626
+Loss: 0.5957211256027222
+Loss: 0.5196749567985535
+Loss: 0.31022316217422485
+Loss: 0.338253378868103
+Loss: 0.2366098016500473
+Loss: 0.5244935154914856
+Loss: 0.3821834325790405
+Loss: 0.20574472844600677
+Loss: 0.23378190398216248
+Loss: 0.6590188145637512
+Loss: 0.4353814125061035
+Loss: 0.11818154901266098
+Loss: 0.30669552087783813
+Loss: 0.32907211780548096
+Loss: 0.43960249423980713
+Loss: 0.22413501143455505
+Loss: 0.26998525857925415
+Loss: 0.4239395260810852
+Loss: 0.5101171135902405
+Loss: 0.290548175573349
+Loss: 0.3418681025505066
+Loss: 0.5010767579078674
+Loss: 0.340052992105484
+Loss: 0.7680128216743469
+Loss: 0.24377374351024628
+Loss: 0.49919775128364563
+Loss: 0.1882300078868866
+Loss: 0.39732232689857483
+Loss: 0.3366858959197998
+Loss: 0.28571417927742004
+Loss: 0.3325134217739105
+Loss: 0.3157695531845093
+Loss: 0.586071789264679
+Loss: 0.3238445222377777
+Loss: 0.41006821393966675
+Loss: 0.41566067934036255
+Loss: 0.4669903516769409
+Loss: 0.3470298647880554
+Loss: 0.5050966739654541
+Loss: 0.5358380079269409
+Loss: 0.5606625080108643
+Loss: 0.3721684515476227
+Loss: 0.4674184322357178
+Loss: 0.16692638397216797
+Loss: 0.3789133131504059
+Loss: 1.8322120904922485
+  Average training loss: 0.44
+  Training epoch took: 0:03:57Running Validation...
+=====BATCH METRICS=====
+  Batch: 0
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.38
+  F1-Score (Macro): 0.43
+=====BATCH METRICS=====
+  Batch: 1
+  Accuracy: 0.62
+  Precision (Macro): 0.71
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.62
+=====BATCH METRICS=====
+  Batch: 2
+  Accuracy: 0.50
+  Precision (Macro): 0.50
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.35
+=====BATCH METRICS=====
+  Batch: 3
+  Accuracy: 0.50
+  Precision (Macro): 0.38
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.45
+=====BATCH METRICS=====
+  Batch: 4
+  Accuracy: 0.62
+  Precision (Macro): 0.44
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 5
+  Accuracy: 0.50
+  Precision (Macro): 0.43
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.46
+=====BATCH METRICS=====
+  Batch: 6
+  Accuracy: 0.50
+  Precision (Macro): 0.43
+  Recall (Macro): 0.43
+  F1-Score (Macro): 0.40
+=====BATCH METRICS=====
+  Batch: 7
+  Accuracy: 0.75
+  Precision (Macro): 0.67
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.67
+=====BATCH METRICS=====
+  Batch: 8
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.50
+=====BATCH METRICS=====
+  Batch: 9
+  Accuracy: 0.62
+  Precision (Macro): 0.50
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 10
+  Accuracy: 0.62
+  Precision (Macro): 0.65
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.58
+=====BATCH METRICS=====
+  Batch: 11
+  Accuracy: 0.88
+  Precision (Macro): 0.88
+  Recall (Macro): 0.88
+  F1-Score (Macro): 0.83
+=====BATCH METRICS=====
+  Batch: 12
+  Accuracy: 0.88
+  Precision (Macro): 0.88
+  Recall (Macro): 0.94
+  F1-Score (Macro): 0.88
+=====BATCH METRICS=====
+  Batch: 13
+  Accuracy: 0.62
+  Precision (Macro): 0.36
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.38
+=====BATCH METRICS=====
+  Batch: 14
+  Accuracy: 0.88
+  Precision (Macro): 0.62
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.67
+=====BATCH METRICS=====
+  Batch: 15
+  Accuracy: 0.50
+  Precision (Macro): 0.36
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.33
+=====BATCH METRICS=====
+  Batch: 16
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.38
+  F1-Score (Macro): 0.42
+=====BATCH METRICS=====
+  Batch: 17
+  Accuracy: 0.62
+  Precision (Macro): 0.50
+  Recall (Macro): 0.43
+  F1-Score (Macro): 0.43
+=====BATCH METRICS=====
+  Batch: 18
+  Accuracy: 0.38
+  Precision (Macro): 0.18
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.23
+=====BATCH METRICS=====
+  Batch: 19
+  Accuracy: 0.88
+  Precision (Macro): 0.80
+  Recall (Macro): 0.73
+  F1-Score (Macro): 0.76
+=====BATCH METRICS=====
+  Batch: 20
+  Accuracy: 0.50
+  Precision (Macro): 0.50
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 21
+  Accuracy: 0.38
+  Precision (Macro): 0.25
+  Recall (Macro): 0.22
+  F1-Score (Macro): 0.23
+=====BATCH METRICS=====
+  Batch: 22
+  Accuracy: 0.62
+  Precision (Macro): 0.33
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.36
+=====BATCH METRICS=====
+  Batch: 23
+  Accuracy: 0.75
+  Precision (Macro): 0.62
+  Recall (Macro): 0.69
+  F1-Score (Macro): 0.63
+=====BATCH METRICS=====
+  Batch: 24
+  Accuracy: 0.62
+  Precision (Macro): 0.43
+  Recall (Macro): 0.53
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 25
+  Accuracy: 0.38
+  Precision (Macro): 0.58
+  Recall (Macro): 0.46
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 26
+  Accuracy: 0.88
+  Precision (Macro): 0.50
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.56
+=====BATCH METRICS=====
+  Batch: 27
+  Accuracy: 0.50
+  Precision (Macro): 0.40
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.40
+=====BATCH METRICS=====
+  Batch: 28
+  Accuracy: 0.75
+  Precision (Macro): 0.79
+  Recall (Macro): 0.79
+  F1-Score (Macro): 0.79
+=====BATCH METRICS=====
+  Batch: 29
+  Accuracy: 0.88
+  Precision (Macro): 0.93
+  Recall (Macro): 0.90
+  F1-Score (Macro): 0.89
+=====BATCH METRICS=====
+  Batch: 30
+  Accuracy: 0.50
+  Precision (Macro): 0.65
+  Recall (Macro): 0.55
+  F1-Score (Macro): 0.49
+=====BATCH METRICS=====
+  Batch: 31
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.46
+=====BATCH METRICS=====
+  Batch: 32
+  Accuracy: 0.62
+  Precision (Macro): 0.57
+  Recall (Macro): 0.70
+  F1-Score (Macro): 0.57
+=====BATCH METRICS=====
+  Batch: 33
+  Accuracy: 0.62
+  Precision (Macro): 0.50
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.53
+=====BATCH METRICS=====
+  Batch: 34
+  Accuracy: 0.50
+  Precision (Macro): 0.60
+  Recall (Macro): 0.30
+  F1-Score (Macro): 0.39
+=====BATCH METRICS=====
+  Batch: 35
+  Accuracy: 0.62
+  Precision (Macro): 0.58
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.49
+=====BATCH METRICS=====
+  Batch: 36
+  Accuracy: 0.38
+  Precision (Macro): 0.20
+  Recall (Macro): 0.23
+  F1-Score (Macro): 0.21
+=====BATCH METRICS=====
+  Batch: 37
+  Accuracy: 0.88
+  Precision (Macro): 0.75
+  Recall (Macro): 0.69
+  F1-Score (Macro): 0.71
+=====BATCH METRICS=====
+  Batch: 38
+  Accuracy: 0.75
+  Precision (Macro): 0.61
+  Recall (Macro): 0.61
+  F1-Score (Macro): 0.60
+=====BATCH METRICS=====
+  Batch: 39
+  Accuracy: 0.75
+  Precision (Macro): 0.55
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.57
+=====BATCH METRICS=====
+  Batch: 40
+  Accuracy: 0.50
+  Precision (Macro): 0.50
+  Recall (Macro): 0.42
+  F1-Score (Macro): 0.44
+=====BATCH METRICS=====
+  Batch: 41
+  Accuracy: 0.62
+  Precision (Macro): 0.53
+  Recall (Macro): 0.63
+  F1-Score (Macro): 0.57
+=====BATCH METRICS=====
+  Batch: 42
+  Accuracy: 0.88
+  Precision (Macro): 0.92
+  Recall (Macro): 0.89
+  F1-Score (Macro): 0.89
+=====BATCH METRICS=====
+  Batch: 43
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.46
+=====BATCH METRICS=====
+  Batch: 44
+  Accuracy: 0.50
+  Precision (Macro): 0.30
+  Recall (Macro): 0.27
+  F1-Score (Macro): 0.28
+=====BATCH METRICS=====
+  Batch: 45
+  Accuracy: 0.75
+  Precision (Macro): 0.70
+  Recall (Macro): 0.72
+  F1-Score (Macro): 0.68
+=====BATCH METRICS=====
+  Batch: 46
+  Accuracy: 0.75
+  Precision (Macro): 0.62
+  Recall (Macro): 0.54
+  F1-Score (Macro): 0.57
+=====BATCH METRICS=====
+  Batch: 47
+  Accuracy: 0.75
+  Precision (Macro): 0.58
+  Recall (Macro): 0.58
+  F1-Score (Macro): 0.56
+=====BATCH METRICS=====
+  Batch: 48
+  Accuracy: 0.38
+  Precision (Macro): 0.15
+  Recall (Macro): 0.12
+  F1-Score (Macro): 0.13
+=====BATCH METRICS=====
+  Batch: 49
+  Accuracy: 0.62
+  Precision (Macro): 0.71
+  Recall (Macro): 0.71
+  F1-Score (Macro): 0.64
+=====BATCH METRICS=====
+  Batch: 50
+  Accuracy: 0.88
+  Precision (Macro): 0.92
+  Recall (Macro): 0.83
+  F1-Score (Macro): 0.84
+=====BATCH METRICS=====
+  Batch: 51
+  Accuracy: 0.38
+  Precision (Macro): 0.31
+  Recall (Macro): 0.31
+  F1-Score (Macro): 0.26
+=====BATCH METRICS=====
+  Batch: 52
+  Accuracy: 0.38
+  Precision (Macro): 0.33
+  Recall (Macro): 0.31
+  F1-Score (Macro): 0.29
+=====BATCH METRICS=====
+  Batch: 53
+  Accuracy: 0.38
+  Precision (Macro): 0.25
+  Recall (Macro): 0.39
+  F1-Score (Macro): 0.29
+=====BATCH METRICS=====
+  Batch: 54
+  Accuracy: 0.88
+  Precision (Macro): 0.67
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.70
+=====BATCH METRICS=====
+  Batch: 55
+  Accuracy: 0.62
+  Precision (Macro): 0.50
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.43
+=====BATCH METRICS=====
+  Batch: 56
+  Accuracy: 0.62
+  Precision (Macro): 0.54
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.58
+=====BATCH METRICS=====
+  Batch: 57
+  Accuracy: 0.38
+  Precision (Macro): 0.22
+  Recall (Macro): 0.28
+  F1-Score (Macro): 0.22
+=====BATCH METRICS=====
+  Batch: 58
+  Accuracy: 0.75
+  Precision (Macro): 0.60
+  Recall (Macro): 0.55
+  F1-Score (Macro): 0.57
+=====BATCH METRICS=====
+  Batch: 59
+  Accuracy: 0.62
+  Precision (Macro): 0.60
+  Recall (Macro): 0.53
+  F1-Score (Macro): 0.53
+=====BATCH METRICS=====
+  Batch: 60
+  Accuracy: 0.38
+  Precision (Macro): 0.28
+  Recall (Macro): 0.22
+  F1-Score (Macro): 0.22
+=====BATCH METRICS=====
+  Batch: 61
+  Accuracy: 0.88
+  Precision (Macro): 0.60
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.60
+=====BATCH METRICS=====
+  Batch: 62
+  Accuracy: 0.75
+  Precision (Macro): 0.56
+  Recall (Macro): 0.50
+  F1-Score (Macro): 0.51
+=====BATCH METRICS=====
+  Batch: 63
+  Accuracy: 0.75
+  Precision (Macro): 0.67
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.67
+=====BATCH METRICS=====
+  Batch: 64
+  Accuracy: 0.50
+  Precision (Macro): 0.40
+  Recall (Macro): 0.40
+  F1-Score (Macro): 0.37
+=====BATCH METRICS=====
+  Batch: 65
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.55
+  F1-Score (Macro): 0.50
+=====BATCH METRICS=====
+  Batch: 66
+  Accuracy: 0.75
+  Precision (Macro): 0.67
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.67
+=====BATCH METRICS=====
+  Batch: 67
+  Accuracy: 0.62
+  Precision (Macro): 0.33
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.33
+=====BATCH METRICS=====
+  Batch: 68
+  Accuracy: 0.62
+  Precision (Macro): 0.67
+  Recall (Macro): 0.62
+  F1-Score (Macro): 0.62
+=====BATCH METRICS=====
+  Batch: 69
+  Accuracy: 0.38
+  Precision (Macro): 0.20
+  Recall (Macro): 0.33
+  F1-Score (Macro): 0.23
+=====BATCH METRICS=====
+  Batch: 70
+  Accuracy: 0.88
+  Precision (Macro): 0.67
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.70
+=====BATCH METRICS=====
+  Batch: 71
+  Accuracy: 0.88
+  Precision (Macro): 0.73
+  Recall (Macro): 0.80
+  F1-Score (Macro): 0.76
+=====BATCH METRICS=====
+  Batch: 72
+  Accuracy: 0.62
+  Precision (Macro): 0.39
+  Recall (Macro): 0.44
+  F1-Score (Macro): 0.38
+=====BATCH METRICS=====
+  Batch: 73
+  Accuracy: 0.38
+  Precision (Macro): 0.35
+  Recall (Macro): 0.42
+  F1-Score (Macro): 0.38
+=====BATCH METRICS=====
+  Batch: 74
+  Accuracy: 0.75
+  Precision (Macro): 0.63
+  Recall (Macro): 0.70
+  F1-Score (Macro): 0.63
+=====BATCH METRICS=====
+  Batch: 75
+  Accuracy: 0.75
+  Precision (Macro): 0.55
+  Recall (Macro): 0.60
+  F1-Score (Macro): 0.57
+=====BATCH METRICS=====
+  Batch: 76
+  Accuracy: 0.38
+  Precision (Macro): 0.38
+  Recall (Macro): 0.29
+  F1-Score (Macro): 0.29
+=====BATCH METRICS=====
+  Batch: 77
+  Accuracy: 0.88
+  Precision (Macro): 0.67
+  Recall (Macro): 0.75
+  F1-Score (Macro): 0.70
+=====BATCH METRICS=====
+  Batch: 78
+  Accuracy: 0.75
+  Precision (Macro): 0.50
+  Recall (Macro): 0.56
+  F1-Score (Macro): 0.51
+=====BATCH METRICS=====
+  Batch: 79
+  Accuracy: 0.62
+  Precision (Macro): 0.25
+  Recall (Macro): 0.18
+  F1-Score (Macro): 0.21
+=====BATCH METRICS=====
+  Batch: 80
+  Accuracy: 0.62
+  Precision (Macro): 0.73
+  Recall (Macro): 0.57
+  F1-Score (Macro): 0.59
+=====BATCH METRICS=====
+  Batch: 81
+  Accuracy: 0.62
+  Precision (Macro): 0.50
+  Recall (Macro): 0.56
+  F1-Score (Macro): 0.47
+=====BATCH METRICS=====
+  Batch: 82
+  Accuracy: 0.25
+  Precision (Macro): 0.10
+  Recall (Macro): 0.13
+  F1-Score (Macro): 0.11
+=====BATCH METRICS=====
+  Batch: 83
+  Accuracy: 0.62
+  Precision (Macro): 0.60
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.56
+=====BATCH METRICS=====
+  Batch: 84
+  Accuracy: 0.62
+  Precision (Macro): 0.33
+  Recall (Macro): 0.35
+  F1-Score (Macro): 0.33
+=====BATCH METRICS=====
+  Batch: 85
+  Accuracy: 0.62
+  Precision (Macro): 0.46
+  Recall (Macro): 0.54
+  F1-Score (Macro): 0.49
+=====BATCH METRICS=====
+  Batch: 86
+  Accuracy: 0.67
+  Precision (Macro): 0.50
+  Recall (Macro): 0.67
+  F1-Score (Macro): 0.56
+=====EPOCH METRICS=====
+======== Training Complete ========
+Average Accuracy over all epochs: 0.64
+Average Precision (Macro): 0.52
+Average Recall (Macro): 0.53
+Average F1-Score (Macro): 0.50
+  Validation Loss: 1.00
+  Validation took: 0:00:19
