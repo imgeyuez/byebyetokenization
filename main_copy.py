@@ -122,8 +122,8 @@ def prepare_train_data(DATAPATH):
 # train data 
 language_detector = LanguageDetectorBuilder.from_all_languages().build()
 tqdm.pandas()
-rawDATAPATH = r"data\user_reviews.csv"
-prepare_train_data(rawDATAPATH)
+#rawDATAPATH = r"data\user_reviews.csv"
+#prepare_train_data(rawDATAPATH)
 
 
 
@@ -299,11 +299,11 @@ unknown_ws = count_unknown(train_input_ids_ws)
 vocab_bpe, merge_rules = learn_bpe(df_train)
 unknowun_vocab = unknown_tokens("bpe",vocab_bpe, vocab)
 print(f"Unknown Vocabs: {unknowun_vocab}")
-# df_train["tokenized_bpe"] = df_train["text"].progress_apply(lambda x: tokenizer_bpe(x, merge_rules))
-# df_train['tokenized_bpe'] = df_train['tokenized_bpe'].progress_apply(lambda x: remove_stopwords(x, stopwords))
-# vocab_bpe = get_vocababulary(df_train, "tokenized_bpe")
-# counter_bpe, train_input_ids_bpe, train_attention_masks_bpe = encode_data(df_train, "bpe", bert_tokenizer)
-# unknown_bpe = count_unknown(train_input_ids_bpe)
+df_train["tokenized_bpe"] = df_train["text"].progress_apply(lambda x: tokenizer_bpe(x, merge_rules))
+df_train['tokenized_bpe'] = df_train['tokenized_bpe'].progress_apply(lambda x: remove_stopwords(x, stopwords))
+vocab_bpe = get_vocababulary(df_train, "tokenized_bpe")
+counter_bpe, train_input_ids_bpe, train_attention_masks_bpe = encode_data(df_train, "bpe", bert_tokenizer)
+unknown_bpe = count_unknown(train_input_ids_bpe)
 
 ##############################################
 ############# RULE BASED ################
@@ -338,28 +338,27 @@ unknown_bert = count_unknown(train_input_ids_bert)
 ############### ABOUT TOKENIZATION ###########
 ##############################################
 
-# with open(f"./tokenization_info.txt", "a", encoding="UTF-8") as file:
-#     file.write("Whistespace:\n")
-#     file.write(f"Vocabulary: {len(vocab_ws)}\n")
-#     file.write(f"Number of unknown tokens: {unknown_ws}\n")
-#     file.write(f"Number of times, input IDs hat >512 elements: {counter_ws}\n")
-
-#     file.write("\nBPE:\n")
-#     file.write(f"Vocabulary: {len(vocab_bpe)}\n")
-#     file.write(f"Number of unknown tokens: {unknown_bpe}\n")
-#     file.write(f"Number of times, input IDs hat >512 elements: {counter_bpe}\n")
-
-
-#     file.write("\nRule based:\n")
-#     file.write(f"Vocabulary: {len(vocab_rulebased)}\n")
-#     file.write(f"Number of unknown tokens: {unknown_rulebased}\n")
-#     file.write(f"Number of times, input IDs hat >512 elements: {counter_rulebased}\n")
+with open(f"./tokenization_info.txt", "a", encoding="UTF-8") as file:
+    file.write("Whistespace:\n")
+    file.write(f"Vocabulary: {len(vocab_ws)}\n")
+    file.write(f"Number of unknown tokens: {unknown_ws}\n")
+    file.write(f"Number of times, input IDs hat >512 elements: {counter_ws}\n")
+    file.write("\nBPE:\n")
+    file.write(f"Vocabulary: {len(vocab_bpe)}\n")
+    file.write(f"Number of unknown tokens: {unknown_bpe}\n")
+    file.write(f"Number of times, input IDs hat >512 elements: {counter_bpe}\n")
 
 
-#     file.write("\nBERT:\n")
-#     file.write(f"Vocabulary: {len(vocab_bert)}\n")
-#     file.write(f"Number of unknown tokens: {unknown_bert}\n")
-#     file.write(f"Number of times, input IDs hat >512 elements: {counter_bert}\n")
+    file.write("\nRule based:\n")
+    file.write(f"Vocabulary: {len(vocab_rulebased)}\n")
+    file.write(f"Number of unknown tokens: {unknown_rulebased}\n")
+    file.write(f"Number of times, input IDs hat >512 elements: {counter_rulebased}\n")
+
+
+    file.write("\nBERT:\n")
+    file.write(f"Vocabulary: {len(vocab_bert)}\n")
+    file.write(f"Number of unknown tokens: {unknown_bert}\n")
+    file.write(f"Number of times, input IDs hat >512 elements: {counter_bert}\n")
 
         
 
@@ -429,9 +428,9 @@ print('Max sentence length: ', max_len)
 train_data_ws = TensorDataset(train_input_ids_ws, train_attention_masks_ws, train_labels)
 print(f'training samples: {train_data_ws}')
 
-# train_data_bpe = TensorDataset(train_input_ids_bpe, train_attention_masks_bpe, train_labels)
-# train_data_rulebased = TensorDataset(train_input_ids_rulebased, train_attention_masks_rulebased, train_labels)
-# train_data_bert = TensorDataset(train_input_ids_bert, train_attention_masks_bert, train_labels)
+train_data_bpe = TensorDataset(train_input_ids_bpe, train_attention_masks_bpe, train_labels)
+train_data_rulebased = TensorDataset(train_input_ids_rulebased, train_attention_masks_rulebased, train_labels)
+train_data_bert = TensorDataset(train_input_ids_bert, train_attention_masks_bert, train_labels)
 
 test_data_ws = TensorDataset(test_input_ids_ws, test_attention_masks_ws, test_labels)
 test_data_bpe = TensorDataset(test_input_ids_bpe, test_attention_masks_bpe, test_labels)
@@ -441,25 +440,25 @@ test_data_bert = TensorDataset(test_input_ids_bert, test_attention_masks_bert, t
 
 batch_size = 8
 
-# train_size = int(0.8 * len(train_input_ids_bpe))
-# val_size = len(train_input_ids_bpe)  - train_size
+train_size = int(0.8 * len(train_input_ids_bpe))
+val_size = len(train_input_ids_bpe)  - train_size
 
-# train_data_ws, val_data_ws = random_split(train_data_ws, [train_size, val_size])
-# train_data_bpe, val_data_bpe = random_split(train_data_bpe, [train_size, val_size])
-# train_data_rulebased, val_data_rulebased = random_split(train_data_rulebased, [train_size, val_size])
-# train_data_bert, val_data_bert = random_split(train_data_bert, [train_size, val_size])
+train_data_ws, val_data_ws = random_split(train_data_ws, [train_size, val_size])
+train_data_bpe, val_data_bpe = random_split(train_data_bpe, [train_size, val_size])
+train_data_rulebased, val_data_rulebased = random_split(train_data_rulebased, [train_size, val_size])
+train_data_bert, val_data_bert = random_split(train_data_bert, [train_size, val_size])
 
 # #############################
 # ### DATA LOADER ####
-# train_dataloader_ws = data_loader(train_data_ws, batch_size)
-# train_dataloader_bpe = data_loader(train_data_bpe, batch_size)
-# train_dataloader_rulebased = data_loader(train_data_rulebased, batch_size)
-# train_dataloader_bert = data_loader(train_data_bert, batch_size)
+train_dataloader_ws = data_loader(train_data_ws, batch_size)
+train_dataloader_bpe = data_loader(train_data_bpe, batch_size)
+train_dataloader_rulebased = data_loader(train_data_rulebased, batch_size)
+train_dataloader_bert = data_loader(train_data_bert, batch_size)
 
-# val_dataloader_ws = data_loader(val_data_ws, batch_size)
-# val_dataloader_bpe = data_loader(val_data_bpe, batch_size)
-# val_dataloader_rulebased = data_loader(val_data_rulebased, batch_size)
-# val_dataloader_bert = data_loader(val_data_bert, batch_size)
+val_dataloader_ws = data_loader(val_data_ws, batch_size)
+val_dataloader_bpe = data_loader(val_data_bpe, batch_size)
+val_dataloader_rulebased = data_loader(val_data_rulebased, batch_size)
+val_dataloader_bert = data_loader(val_data_bert, batch_size)
 
 test_dataloader_ws = data_loader(test_data_ws, batch_size)
 test_dataloader_bpe = data_loader(test_data_bpe, batch_size)
@@ -472,32 +471,32 @@ experiments = {
     "bertOG": {
         "model": "bert",
         "heads": 12,
-        # "train": train_dataloader_bert,
-        # "val": val_dataloader_bert,
+        "train": train_dataloader_bert,
+        "val": val_dataloader_bert,
         "test": test_dataloader_bert
     },
 
     "wsOG": {
         "model": "ws",
         "heads": 12,
-        # "train": train_dataloader_ws,
-        # "val": val_dataloader_ws,
+        "train": train_dataloader_ws,
+        "val": val_dataloader_ws,
         "test": test_dataloader_ws
     },
 
     "bpeOG": {
         "model": "bpe",
         "heads": 12,
-        # "train": train_dataloader_bpe,
-        # "val": val_dataloader_bpe,
+        "train": train_dataloader_bpe,
+        "val": val_dataloader_bpe,
         "test": test_dataloader_bpe
     },
     
     "rulebasedOG": {
         "model": "rulebased",
         "heads": 12,
-        # "train": train_dataloader_rulebased,
-        # "val": val_dataloader_rulebased,
+        "train": train_dataloader_rulebased,
+        "val": val_dataloader_rulebased,
         "test": test_dataloader_rulebased
     }
     
@@ -840,50 +839,6 @@ def finetune_bert(experiment_name, experiment):
         # Save training statistics to CSV
         df_stats = pd.DataFrame(training_stats)
         df_stats.to_csv(f"training_stats_{experiment_name}.csv", index=False)
-
-
-#     predictions = list()
-#     gold_labels = list()
-
-#     for batch in experiment["test"]:
-#         b_input_ids = batch[0].to(device)
-#         b_input_mask = batch[1].to(device)
-#         b_labels = batch[2].to(device)
-#         with torch.no_grad():        
-#             output= model(b_input_ids, 
-#                           token_type_ids=None, 
-#                           attention_mask=b_input_mask)
-#             logits = output.logits
-#             logits = logits.detach().cpu().numpy()
-#             pred_flat = np.argmax(logits, axis=1).flatten()
-#             label_flat = b_labels.cpu().numpy().flatten()
-            
-#             predictions.extend(list(pred_flat))
-#             gold_labels.extend(list(label_flat))
-
-
-
-#     accuracy = accuracy_score(gold_labels, predictions)
-#     report = classification_report(gold_labels, predictions, output_dict=True)  # Get metrics for all classes
-    
-
-#     results = {
-#     "experiment_name": experiment_name,
-#     "accuracy": float(accuracy),  # Ensure accuracy is a float
-#     "classification_report": {k: {metric: float(v) if isinstance(v, (np.integer, np.floating)) else v
-#                                   for metric, v in metrics.items()}
-#                               for k, metrics in report.items()},
-#     "predictions": list(map(int, predictions)),  # Ensure all predictions are Python int
-#     "gold_labels": list(map(int, gold_labels))  # Ensure all gold labels are Python int
-# }
-
-#     # Save results to a JSON file
-#     json_filename = f"results/{experiment_name}_test_results.json"
-#     with open(json_filename, "w") as json_file:
-#         json.dump(results, json_file, indent=4)
-
-    # return finetuned_model
-
 
 
 for experiment_name, experiment in experiments.items():
